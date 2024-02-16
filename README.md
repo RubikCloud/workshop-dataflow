@@ -15,3 +15,9 @@
 ### Requisitos, en caso de tener:
 
 - No
+
+### Flow:
+
+- Ping desde local con "temperatura de cada lugar"
+- Dataflow (en modo streaming).
+- Windowing de 30 segundos, guarda en una DB el promedio de todas esas temperaturas.
